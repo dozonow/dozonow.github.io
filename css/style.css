@@ -1,0 +1,476 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent
+}
+
+body {
+    line-height: 1
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+nav ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+     cursor: pointer;
+}
+
+a:hover{
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+
+}
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold
+}
+
+del {
+    text-decoration: line-through
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+
+input,
+select {
+    vertical-align: middle
+}
+
+li {
+    list-style: none
+}
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+
+/* ---- reset ---- */
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('../fonts/Gotham-Bold.eot');
+    src: url('../fonts/Gotham-Bold.woff2') format('woff2'), url('../fonts/Gotham-Bold.woff') format('woff'), url('../fonts/Gotham-Bold.ttf') format('truetype'), url('../fonts/Gotham-Bold.svg#Gotham-Bold') format('svg'), url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'adelia';
+    src: url('../fonts/adelia.eot');
+    src: url('../fonts/adelia.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/adelia.woff2') format('woff2'),
+    url('../fonts/adelia.woff') format('woff'),
+    url('../fonts/adelia.ttf') format('truetype'),
+    url('../fonts/adelia.svg#adelia') format('svg');
+    font-weight: 500;
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('../fonts/Gotham-Medium.eot');
+    src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gotham-Medium.woff2') format('woff2'),
+    url('../fonts/Gotham-Medium.woff') format('woff'),
+    url('../fonts/Gotham-Medium.ttf') format('truetype'),
+    url('../fonts/Gotham-Medium.svg#GothamMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+} 
+
+
+@font-face {
+    font-family: 'GilroyBold';
+    src: url('../fonts/GilroyBold.eot');
+    src: url('../fonts/GilroyBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GilroyBold.woff2') format('woff2'),
+    url('../fonts/GilroyBold.woff') format('woff'),
+    url('../fonts/GilroyBold.ttf') format('truetype'),
+    url('../fonts/GilroyBold.svg#GothamMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+} 
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Gotham-Bold";
+    font-size: 15px;
+    color: #000;
+    background: #fff;
+    line-height: 1.2;
+    overflow-x: hidden;
+
+}
+.dflex{display:flex}
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.dflex-between{display:flex;justify-content:space-between;flex-wrap:wrap}
+.txt-voilet{color: #7c33c0;}
+.txt-sky-blue{color: #019eaa;}
+.txt-black{color: #000}
+.txt-red{ color: #da5649;}
+.txt-gray{ color: #787878;}
+.txt-white{color: #fff !important;}
+.txt-yellow{color: #ffba2c;}
+.pr{position: relative;}
+.pa{position: absolute;}
+.bg-mix-1{mix-blend-mode: screen;}
+
+p b{
+    font-family: Gotham-Bold;
+    font-weight: normal;
+}
+p {
+    line-height: 1.1;
+}
+
+.header-sec{
+    background: url(../images/banner-header.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.logo-wrap {
+    width: 115px;
+    margin: auto;
+    padding-top: 50px;
+}
+.supply-txt {
+    font-family: "adelia";
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.2;
+    color: #fff;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.heading-txt {
+    font-family: GilroyBold;
+    font-size: 165px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 15px 10px 8px #00000024;
+    line-height: 1;
+    margin-top: 20px;
+}
+.singlenamsec{width: 100%; margin: auto;}
+.txt-single{width: 25%; text-align: center;}
+.sub-txt{font-family: "Gotham-Medium";font-size: 24px;color: #fff;text-align: center;}
+.whatsapp-call-txt img {
+    width: 50px;
+    margin: 0 10px;
+}
+.whatsapp-call-txt{
+    justify-content: center;
+    align-items: center;
+    color: #656464;
+    font-size: 50px;
+}
+.whatsapp-call-txt a {
+    color: #000;
+    background: #fff;
+    padding: 2px 10px;
+    border-radius: 37px;
+    text-decoration: none;
+    outline: none;
+    margin-left: 5px;
+}
+.whatsapp-line {
+    padding: 20px 0;
+    background: url(../images/bg-gray.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services-overview{padding: 50px 0;}
+.srv-list {
+    width: 30%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 12px 0px #1dd1c929;
+}
+.srv-list.one{
+    background: rgb(39,225,209);
+background: linear-gradient(130deg, rgba(39,225,209,1) 51%, rgba(1,166,178,1) 100%);
+}
+.srv-list.two{
+    background: rgb(40,205,226);
+background: linear-gradient(130deg, rgba(40,205,226,1) 0%, rgba(27,162,200,1) 40%);
+}
+.srv-list.three{
+    background: rgb(41,136,226);
+background: linear-gradient(130deg, rgba(41,136,226,1) 51%, rgba(28,95,203,1) 100%);
+}
+.srv-subheading {
+    font-size: 30px;
+    font-family: "Gotham-Medium";
+    color: #fff;
+    line-height: 1.2;
+}
+.srv-subheading span{
+    font-family: "Gotham-Bold";
+}
+.srv-heading {
+    font-size: 70px;
+    font-family: "Gotham-Bold";
+    color: #fff;
+    line-height: 1.2;
+
+}
+.uppercase{text-transform: uppercase;}
+.men-blk{width: 40%;}
+.men-txt-blk{width: 55%;}
+.men-subheading {
+    font-size: 45px;
+    font-family: "Gotham-Bold";
+    color: #656464;
+    line-height: 1.1;
+}
+
+.men-box-wrap {
+    align-items: center;
+}
+.step-sec{
+    padding: 100px 0;
+    background: url(../images/bg-gray.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.step-list {
+    width: 30%;
+    padding: 25px;
+    border-radius: 50px;
+    box-shadow: 1px 6px 10px 6px #0000000d;
+    background: #fff;
+    text-align: center;
+}
+.step-subheading{
+    font-size: 26px;
+    font-family: "Gotham-Medium";
+    color: #4c4b4b;
+    line-height: 1.2;
+}
+.step-subheading span{
+    font-family: "Gotham-Bold";
+}
+.step-num {
+    background: #8f8f8f;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 25px;
+    position: relative;
+    top: -34px;
+    text-transform: uppercase;
+        box-shadow: 1px 6px 10px 6px #0000000d;
+}
+.img-con-box {
+    width: 75px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+.call-us{padding: 50px 0;}
+.heading-call span{color: #1e1e1e;}
+.heading-call{
+     font-size: 45px;
+     font-family: "Gotham-Bold";
+     color: #656464;
+}
+.call-us-link {
+    align-items: center;
+    font-size: 30px;
+    font-family: "Gotham-Bold";
+    color: #fff;
+    text-decoration: none;
+    }
+.call-us-link img{
+    width: 40px;
+    margin-right: 15px;
+}
+.call-blk {
+    justify-content: center;
+    background: #24debd;
+    padding: 8px 17px;
+    border-radius: 30px;
+    display: inline-flex;
+        box-shadow: 0px 14px 20px 8px #24debd1f;
+}
+.call-us-wrap {
+    text-align: center;
+    padding-top: 28px;
+}
+
+.txt-simple{
+    font-size: 14px;
+    font-family: "Gotham-Bold";
+    color: #fff;
+    line-height: 1.2;
+}
+.sec-footer {
+    background: #151b39;
+    padding: 20px 0;
+}
+.left-address-blk{
+    width: 45%;
+}
+.right-payment{width: 32%;}
+.footer-blk{
+    align-items: center;
+}
+.call-two-list {
+    justify-content: center;
+}
+.call-two-list .call-us-wrap {
+    margin-right: 20px;
+}
+
+.ddtext {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+.ibvm {
+    display: inline-block;
+    vertical-align: middle;
+}	

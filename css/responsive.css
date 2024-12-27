@@ -1,0 +1,112 @@
+@media only screen and (min-width:1920px) {
+    
+}
+@media(min-width:1440px){
+   
+}
+@media(min-width:1380px){
+   
+}
+
+
+@media(max-width:1280px){
+   .header-sec{height: 650px;}
+}
+
+@media(max-width:1200px){
+     .whatsapp-call-txt{font-size: 40px;}
+     .srv-subheading { font-size: 24px;}
+     .step-subheading {font-size: 22px;}
+     .heading-call {font-size: 40px;}
+
+}
+
+@media(max-width:1024px){
+    .right-payment{width: 40%;}
+}
+
+@media(max-width:991px){
+    .header-sec{height: 650px;}
+    .container{width: 95%;}
+    .whatsapp-call-txt {  font-size: 30px;}
+    .whatsapp-call-txt img { width: 35px;  margin: 0 6px;}
+    .srv-heading { font-size: 55px;}
+    .srv-subheading { font-size: 19px;}
+    .men-subheading {    font-size: 35px;}
+    .step-subheading {  font-size: 18px;}
+    .step-num{font-size: 12px;}
+    .call-us-link{font-size: 26px;}
+    .call-us-link img { width: 35px; margin-right: 10px;}
+    .heading-call {  font-size: 35px;	}
+}
+
+
+
+@media(max-width:767px){
+    .whatsapp-call-txt {font-size: 20px;}
+    .whatsapp-call-txt img { width: 24px;}
+    .supply-txt{font-size: 40px;}
+    .heading-txt{font-size: 120px;}
+    .sub-txt{font-size: 18px;}
+    .header-sec { height: 600px;}
+    .srv-list, .step-list { width: 48%; margin-bottom:20px;}
+    .men-subheading {  font-size: 30px;}
+    .men-blk { width: 44%;}
+    .img-con-box { width: 55px;}
+    .step-subheading { font-size: 16px;}
+    .call-two-list .call-us-wrap {
+        margin-right: 0px;
+    }
+    .call-two-list {
+      flex-wrap: wrap;
+  }
+  .left-address-blk {width:100%;text-align:center}
+  .right-payment {width:476px;margin:10px auto 0}
+}
+
+@media(max-width:650px){
+    .men-subheading br{display: none;}
+    .heading-call {   font-size: 26px;}
+    .call-us-link { font-size: 22px;}
+    .call-us-link img { width: 30px;  margin-right: 8px;}
+    .men-subheading {  font-size: 25px;}
+    .logo-wrap { width: 100px;}
+    .txt-simple { font-size: 10px;}
+    .step-sec {padding: 50px 0;}
+}
+
+@media(max-width:550px){
+	.supply-txt { font-size: 30px;}
+	.heading-txt { font-size: 90px;}
+	.header-sec {  height: 550px;}
+	.whatsapp-call-txt {font-size: 15px;}
+	.whatsapp-call-txt img { width: 18px;}
+	.srv-list, .step-list {  width: 81%;  margin: auto;  margin-bottom: 30px;}
+	.men-box-wrap { flex-flow: column-reverse;}
+	.men-blk { width: 80%;  margin-top: 30px;}
+	.men-txt-blk {  width: 80%;}
+	.left-address-blk { width: 100%;}
+	.right-payment {  width: 350px;  margin-top: 15px;}
+
+}
+
+@media(max-width:400px){
+   .txt-single { width: 50%;}
+   .header-sec {  height: 600px;}
+   .heading-txt { font-size: 80px;}
+   .logo-wrap {  width: 80px;}
+   .supply-txt { font-size: 26px;}
+   .whatsapp-call-txt { font-size: 12px;}
+   .srv-list, .step-list {width: 95%;}
+   .call-us-link { font-size: 14px;}
+   .call-us-link img {width: 24px;}
+   .right-payment { width: 100%;}
+}
+
+@media(max-width:350px){
+    .sport-txt { font-size: 60px; letter-spacing: 10px;}
+    .alredy-member {width: 260px;}
+    .checkbox-list{width: 90%}
+	.dash-nav-list li {width: 49%; height: 40px;  font-size: 12px;}
+
+}
